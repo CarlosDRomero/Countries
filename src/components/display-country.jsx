@@ -39,6 +39,7 @@ const DisplayCountry = ({country, weather, fetchingWeather})=>{
         <div className="country-lang-container">
 
           <h4>Languages</h4>
+          <>Lenguajes</>
           <ul>
             {
               Object.keys(country.languages).map((key)=>
