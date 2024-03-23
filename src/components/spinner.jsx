@@ -1,6 +1,6 @@
 const Spinner = ()=>{
   return(
-    <span className="loader"></span>
+    <span className="loader">cargando</span>
   )
 }
 
