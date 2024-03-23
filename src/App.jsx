@@ -76,7 +76,10 @@ function App() {
             placeholder="Search a country"/>
         </form>
         <div className="loader-container">
+          <><p>kilo</p></>
           {searching && <Spinner/>}
+          <Spinner/>
+          <Spinner/>
         </div>
       </div>
       {
